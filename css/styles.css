@@ -11,8 +11,10 @@
 
 body {
     font-family: "Roboto", sans-serif;
-    background: #fff;
+    background: var(--second-white-color);
     color: var(--primary-color);
+    font-size: 14px;
+    letter-spacing: 0.03em;
 }
 
 ul {
@@ -39,15 +41,15 @@ ul {
 }
 
 .logo-first {
-    color: #2196F3;
+    color: var(--fourth-blue-color);
 }
 
 .logo-second {
-    color: #000000;
+    color: var(--third-header-color);
 }
 
 .header-nav-list .link.current {
-    color: var(--third-header-color);
+    color: var(--fourth-blue-color);
 }
 
 .header-nav-item {
@@ -55,12 +57,12 @@ ul {
     font-size: 14px;
     line-height: calc(16 / 14);
     letter-spacing: 0.02em;
-    color: #212121;
+    color: var(--third-header-color);
 }
 
 .header-nav-link:hover,
 .header-nav-link:focus {
-    color: #2196F3;
+    color: var(--fourth-blue-color);
 }
 
 .header-contact-list {
@@ -77,12 +79,12 @@ ul {
 
 .header-nav-link:hover,
 .header-nav-link:focus {
-    color: #2196F3;
+    color: var(--fourth-blue-color);
 }
 
 .header-contact-link:hover,
 .header-contact-link:focus {
-    color: #2196F3;
+    color: var(--fourth-blue-color);
 }
 
 /* MAIN */
@@ -112,7 +114,7 @@ ul {
     text-align: center;
     letter-spacing: 0.06em;
     color: var(--second-white-color);
-    background-color: #2196F3;;
+    background-color: var(--fourth-blue-color);
 }
 
 /* Секция Особенности */
@@ -134,7 +136,6 @@ ul {
 .peculiarities-header {
     font-size: 14px;
     line-height: calc(16 / 14);
-    letter-spacing: 0.03em;
     text-transform: uppercase; 
     color: var(--third-header-color)
 }
@@ -142,7 +143,6 @@ ul {
 .peculiarities-text {
     font-size: 14px;
     line-height: calc(24 / 14);
-    letter-spacing: 0.03em;
     color: var(--primary-color);
 }
 
@@ -152,7 +152,6 @@ ul {
     font-size: 36px;
     line-height: 42px;
     text-align: center;
-    letter-spacing: 0.03em;
     color: var(--third-header-color);
 }
 
@@ -162,22 +161,20 @@ ul {
     font-size: 36px;
     line-height: calc(42 / 36);
     text-align: center;
-    letter-spacing: 0.03em;
     color: var(--third-header-color);
 }
 
 .team-list-header {
     font-weight: 500;
     font-size: 16px;
-    line-height: calc(19 / 16);   
-    letter-spacing: 0.03em;    
+    line-height: calc(19 / 16);      
     color: var(--third-header-color);    
 }
 
 .team-list-text {
     font-size: 16px;
     line-height: calc(19 / 16);  
-    letter-spacing: 0.03em;   
+  
     color: var(--primary-color);
 }
 
@@ -195,7 +192,6 @@ ul {
     font-weight: 700;
     font-size: 26px;
     line-height: calc(31 / 26);
-    letter-spacing: 0.03em;
 }
 
 .logo-footer-first {
@@ -209,14 +205,12 @@ ul {
 .address-main {
     font-size: 14px;
     line-height: calc(24 / 14);
-    letter-spacing: 0.03em;
     color: var(--second-white-color);
 }
 
 .address-link {
     font-size: 14px;
     line-height: calc(24 / 14);
-    letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
 
@@ -231,7 +225,6 @@ ul {
     font-size: 16px;
     line-height: calc(26 / 16);
     text-align: center;
-    letter-spacing: 0.03em;
     color: var(--third-header-color);
 }
 
@@ -251,6 +244,5 @@ ul {
 .examples-text {
     font-size: 16px;
     line-height: calc(30 / 16);
-    letter-spacing: 0.03em;    
     color: var(--primary-color);
 }
