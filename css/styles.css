@@ -32,7 +32,7 @@ ul {
 
 /* Лого и навигация */
 
-.logo {
+.logo, .logo-footer {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -157,6 +157,10 @@ ul {
 
 /* Секция Наша команда */
 
+.team-section {
+    background-color: #F5F4FA;
+}
+
 .team-header {
     font-size: 36px;
     line-height: calc(42 / 36);
@@ -212,6 +216,11 @@ ul {
     font-size: 14px;
     line-height: calc(24 / 14);
     color: rgba(255, 255, 255, 0.6);
+}
+
+.address-link:hover, .address-link:focus,
+.address-main:hover, .address-main:focus {
+    color: var(--fourth-blue-color);
 }
 
 /* ПОРТФОЛИО */
